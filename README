@@ -1,0 +1,21 @@
+How to run this python script in multiple environments
+
+Windows:
+1. Make sure python.exe or pythonw.exe are added to your PATH (system variables)
+2. open CMD and navigate to the directory containing the .py file and input files
+3. Type >> python "Comp 173-Lab 5.py" [file name] [SJF | FCFS | RR] [Time Quantum]
+4. Witness Magic
+
+Unix:
+1. Open terminal (Ctrl + Alt + T)
+2. Navigate to directory containing .py and input files
+3. Unix >> python3 "Comp 173-Lab 5.py" [file name] [SJF | FCFS | RR] [Time Quantum]
+4. Magic
+
+PyCharm:
+1. Open PyCharm
+2. Open Project containing .py and input files
+3. Make sure the configuration for PyCharm is setup with an interpreter (Nothing will happen if no interpreter is set)
+4. Right Click Project folder >> "Open in Terminal"
+5. In terminal >> "Comp 173-Lab 5.py" [file name] [SJF | FCFS | RR] [Time Quantum]
+6. More Magic
